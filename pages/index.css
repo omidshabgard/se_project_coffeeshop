@@ -1,4 +1,4 @@
-.page {
+.page{
   min-width: 1100px;
   max-width: 1600px;
   font-family: inter, Arial, sans-serif;
@@ -39,41 +39,31 @@
 }
 
 .header__title{
-  max-width: 729;
+  max-width: 729px;
   font-size: 60px;
   line-height: 72px;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
-  font-weight: 500px;
-
-
-
+  font-weight: 500;
 }
-
-
 .header__description{
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
   margin: 28px;
-
 }
-
 .header__span-accent{
   display: block;
   color: blue;
 }
-
 .header__footer{
   display: flex;
   justify-content: space-between;
   margin-top: auto;
 }
-
 .header__paragraph{
   margin: 0;
 }
-
 .recipes{
   padding: 100px 80px 215px;
 }
@@ -81,9 +71,7 @@
   display: flex;
   gap: 100px;
   justify-content: center;
-
  }
-
  .recipes__video-caption{
   display: flex;
   justify-content: space-between;
