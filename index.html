@@ -17,18 +17,15 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>Coffee Shop</title>
   </head>
   <body>
     <div class="page">
-      <header></header>
+      <header class="header"></header>
 
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation">
-          <p class="reservation__title">Book a table</p>
-
-          <form action="" class="reservation__form form">
+        <section class="reservation__title">Book a table</section>
+        <section class="reservation__form">
+          <form class="form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label"> Name * </label>
               <input
@@ -65,7 +62,6 @@
             <label for="checkbox" class="form__label form__label_checkbox">
               <input type="checkbox" class="form__checkbox" id="checkbox" />
               I agree with terms of use
-
             </label>
           </form>
         </section>

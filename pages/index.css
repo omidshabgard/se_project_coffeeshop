@@ -9,13 +9,7 @@
   background-size: cover;
   background-color: #d9e7ff;
   height: 100vh;
-
-
-}
-
-.reservation{
-  padding: 100px 0 12px;
-
+  padding: 1px
 }
 
 .reservation__title{
@@ -25,11 +19,15 @@
 }
 
 .reservation__form{
-  margin: 0 auto;
+
+  margin: 100px 0 12px;
+
+
 }
 
 .form{
   max-width: 385px;
+  margin: 0 auto;
 }
 
 .form__fieldset{
