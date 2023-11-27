@@ -1,78 +1,78 @@
 .page{
   min-width: 1100px;
   max-width: 1600px;
-  font-family: inter, Arial, sans-serif;
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: url("../images/background_reservation.svg");
+  background-size: cover;
+  background-color: #d9e7ff;
 }
 
-.header{
-  padding: 30px 80px 40px;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-  flex-direction: column;
 
+.reservation{
+  padding: 100px 0 12px;
 }
-.nav{
-  display: flex;
-  justify-content: space-between;
+
+.reservation__title{
+  margin: 100px 0 80px 0;
+  text-align: center;
+  font-size: 45px;
 }
-.header__image{
-  position: relative;
-  left: -50px;
-  width: 105px;
-  height: 39px;
+
+.reservation__form{
+  margin: 0 auto;
 }
-.nav__links{
-  display: flex;
+
+.form{
+  max-width: 385px;
+}
+
+.form__fieldset{
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  gap: 20px;
-}
-.nav__link{
-  color: #000;
-  text-decoration: none;
+  border: none;
 }
 
-.header__title{
-  max-width: 729px;
-  font-size: 60px;
-  line-height: 72px;
-  margin: 183px 0 0;
-  letter-spacing: -0.6px;
-  font-weight: 500;
-}
-.header__description{
-  max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 28px;
-}
-.header__span-accent{
+.form__label{
   display: block;
-  color: blue;
+  margin-bottom: 8px;
+
 }
-.header__footer{
+
+.form__label_type_checkbox{
   display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-}
-.header__paragraph{
-  margin: 0;
-}
-.recipes{
-  padding: 100px 80px 215px;
-}
- .recipes__videos{
-  display: flex;
-  gap: 100px;
   justify-content: center;
- }
- .recipes__video-caption{
-  display: flex;
-  justify-content: space-between;
- }
+  margin-bottom: 120px;
+}
+
+.form__label_type_checkbox input{
+  height: 20px;
+  width: 20px;
+
+}
+
+.form__label_type_checkbox label{
+  margin-left: 12px;
+
+
+}
+.form__input{
+  padding: 20px 10px;
+  display: block;
+  box-sizing: border-box;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.form__button{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 32px;
+  color: white;
+  padding: auto;
+  background-color: blue;
+
+}
