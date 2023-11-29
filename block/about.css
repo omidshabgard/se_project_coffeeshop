@@ -1,0 +1,41 @@
+.about{
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+}
+
+.about__circle{
+  width: 426px;
+  height: 426px;
+  position: relative;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  top: -152px;
+  left: -129px;
+
+}
+
+.about__title{
+  position: absolute;
+  color: white;
+  margin-left: 200px;
+  margin-top: 251px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  white-space: nowrap;
+}
+.about__content{
+  position: relative;
+  left: 45%;
+  width: 43%;
+  top: -300px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+}
