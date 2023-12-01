@@ -1,8 +1,9 @@
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
   color: #fff;
-  padding: 60px 102px 60px 80px;
+  padding: 60px 80px;
+
 }
 
 .footer__columns {
@@ -10,17 +11,9 @@
   justify-content: space-between;
 }
 
-.footer__column_content_hours {
-  margin-left: auto;
-}
-
-.footer__column_content_social {
-  margin-left: 100px;
-}
-
 .footer__logo {
-  width: 57px;
-  height: 80px;
+  width: 105px;
+  height: 39px;
 }
 
 .footer__list {

@@ -1,62 +1,67 @@
-.about{
-  background-color: #0a2850;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
+.about {
+   background-color: #0a2850;
+   color: #fff;
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
 }
 
-.about__circle{
-  width: 426px;
-  height: 426px;
-  position: absolute;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  top: -152px;
-  left: -129px;
+.about__circle {
+   width: 426px;
+   height: 426px;
+   position: absolute;
+   background-color: #2f80ed;
+   border-radius: 50%;
+   top: -152px;
+   left: -129px;
 }
+
 @keyframes pulsate {
-0%{
-  opacity: 0;
-}
-50%{
-  opacity: 0.6;
-}
-100%{
-opacity: 0;
-transform: scale(1.5);
-}
-}
-
-.about__circle_animation_blurred{
-  animation: pulsate 1.3s ease-in-out 0s infinite;
+   0% {
+      opacity: 0;
+   }
+   50% {
+      opacity: 0.6;
+   }
+   100% {
+      opacity: 0;
+      transform: scale(1.5);
+   }
 }
 
-.about__title{
-  position: relative;
-  color: white;
-  margin-left: 80px;
-  margin-top: 100px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  white-space: wrap;
-  max-width: 251px;
-}
-.about__content{
-  position: relative;
-  left: 45%;
-  width: 660px;
-  top: -119px;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-
+.about__circle_animation_blurred {
+   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
-.about__paragraph{
-  margin: 20px;
+.about__title {
+   position: relative;
+   color: white;
+   margin-left: 80px;
+   margin-top: 100px;
+   font-family: 'Inter', Arial, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 52px;
+   max-width: 251px;
+}
+.about__content {
+   position: relative;
+   max-width: 660px;
+   font-family: 'Noto Serif';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 30px;
+   margin-top: 119px;
+   margin-bottom: 173px;
+   margin-right: 80px;
+}
+
+.about__paragraph {
+   margin-bottom: 20px;
+}
+.about__paragraph:last-child {
+   margin-bottom: 0;
 }

@@ -26,6 +26,8 @@
   margin-top: 8px;
   border-radius: 4px;
   height: 60px;
+  border: 1px solid #838383;
+
 }
 
 .form__input::placeholder {
@@ -53,6 +55,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: none;
 }
 
 .form__button:hover {
