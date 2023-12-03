@@ -1,7 +1,7 @@
 .card {
   width: 540px;
 }
-
+/* there is no reference to <ul> element in the brief. PLEASE GIVE MORE INFO  */
 .card > ul {
   padding-left: 0;
 }
@@ -33,7 +33,10 @@
   margin-left: 0;
   margin-bottom: 16px;
 }
+.card__list-item:last-child{
+  margin-bottom: 0;
 
+}
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
