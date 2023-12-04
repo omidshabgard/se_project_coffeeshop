@@ -41,6 +41,8 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: color 400ms;
+
 }
 
 .footer__column-link:hover {
