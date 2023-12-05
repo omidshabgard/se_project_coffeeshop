@@ -17,7 +17,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-.form__label:last-child{
+.form__label_type_checkbox{
   margin-bottom: 0;
 }
 
