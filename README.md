@@ -14,3 +14,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Add your ideas here :)
+
+## coffee shop link
+https://magenta-gumption-3a0a1f.netlify.app
